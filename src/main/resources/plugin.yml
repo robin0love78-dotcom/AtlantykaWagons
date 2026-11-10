@@ -1,0 +1,14 @@
+name: AtlantykaWagons
+version: 1.1.0
+main: fr.atlantyka.wagons.AtlantykaWagons
+api-version: '1.21'
+author: Atlantyka
+description: Wagons d'attractions en blocs Minecraft avec sons et places passagers.
+commands:
+  wagon:
+    description: Gestion des wagons Atlantyka
+    usage: /wagon <give|list|remove>
+    permission: atlantykawagons.admin
+permissions:
+  atlantykawagons.admin:
+    default: op
