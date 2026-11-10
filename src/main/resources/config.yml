@@ -1,0 +1,54 @@
+settings:
+  max-place-distance: 5
+  movement-sound: true
+  movement-sound-interval-ticks: 50
+  movement-sound-volume: 0.22
+  movement-sound-pitch: 0.85
+  seat-count: 2
+
+models:
+  wagon_bois:
+    display-name: "&6Wagon bois"
+    base: SPRUCE_PLANKS
+    seat: SPRUCE_STAIRS
+    back: STRIPPED_SPRUCE_LOG
+    fence: SPRUCE_FENCE
+    bumper: DARK_OAK_PLANKS
+    place-sound: BLOCK_WOOD_PLACE
+    board-sound: BLOCK_NOTE_BLOCK_BELL
+  wagon_rouge:
+    display-name: "&cWagon rouge"
+    base: RED_CONCRETE
+    seat: RED_NETHER_BRICK_STAIRS
+    back: RED_CONCRETE
+    fence: RED_NETHER_BRICK_FENCE
+    bumper: NETHER_BRICKS
+    place-sound: BLOCK_NETHER_BRICKS_PLACE
+    board-sound: BLOCK_NOTE_BLOCK_BELL
+  wagon_bleu:
+    display-name: "&bWagon bleu"
+    base: BLUE_CONCRETE
+    seat: DARK_OAK_STAIRS
+    back: LIGHT_BLUE_CONCRETE
+    fence: DARK_OAK_FENCE
+    bumper: PRISMARINE_BRICKS
+    place-sound: BLOCK_AMETHYST_BLOCK_PLACE
+    board-sound: BLOCK_NOTE_BLOCK_CHIME
+  wagon_horreur:
+    display-name: "&8Wagon horreur"
+    base: BLACK_CONCRETE
+    seat: POLISHED_BLACKSTONE_STAIRS
+    back: CRIMSON_PLANKS
+    fence: IRON_BARS
+    bumper: CRACKED_POLISHED_BLACKSTONE_BRICKS
+    place-sound: BLOCK_CHAIN_PLACE
+    board-sound: BLOCK_SCULK_SENSOR_CLICKING
+  wagon_or:
+    display-name: "&6Wagon doré"
+    base: GOLD_BLOCK
+    seat: CUT_COPPER_STAIRS
+    back: YELLOW_CONCRETE
+    fence: WAXED_OXIDIZED_COPPER_BULB
+    bumper: CHISELED_COPPER
+    place-sound: BLOCK_AMETHYST_BLOCK_CHIME
+    board-sound: BLOCK_NOTE_BLOCK_BELL
